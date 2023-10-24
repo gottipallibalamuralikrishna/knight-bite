@@ -1,0 +1,298 @@
+
+body{
+  margin: 0px;
+  font-family: 'nicotineregular';
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.head{
+  height: 100vh;
+  width: 100vw;
+}
+.k{
+ display: inline-block;
+ position: absolute; top: 12px;
+ color: white ;
+ font-size: 25px;
+ height: 100px;
+}
+.l img{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.l{
+  margin-left: 190px;
+  z-index: 1;
+}
+.f{
+  display: flex;
+  background-color: rgb(87, 87, 87 ,0.4);
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+
+
+}
+.f div:last-child{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 800px;
+  width: 400px;
+}
+h1{
+  font-size: 25px;
+}
+.main{
+  position: absolute;top: 300px; 
+  height: 300px;
+  width: 1400px;
+}
+.or{
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  font-weight: 1000;
+  margin: 0px;
+
+}
+button{
+  margin-left:600px ; margin-top: 50px; 
+  height: 60px;
+  width: 220px;
+  font-size: 22px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(212, 86, 86);
+  color: white;
+}
+h3{
+  margin-left: 690px;
+  color: white;
+  font-size: 24px;
+}
+.logo{
+  margin-left: 470px;
+}
+.im:hover,.im1:hover{
+  height: 68px; width: 238px;
+
+}
+.lo{
+  background-color: rgb(228, 112, 112);
+  height: 80px;
+  width: 80px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 40%;
+  position: fixed;
+  top: 800px;
+  left: 1700px;
+}
+.lo img{
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.fe{
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 140px;
+}
+.flex p{
+  width: 230px;
+  font-size: 25px;
+  word-spacing: 5PX;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.enj{
+  height: 1200px;
+  background-image: url(https://knight-bite.com/res/index/banner-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+.enj h1 ,.bur h1{
+  font-size: 110px; font-weight: 1000px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative; top: 580px;
+  text-align: center;
+}
+.bur{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://knight-bite.com/res/index/banner-2.webp);
+  background-repeat: no-repeat;
+  margin-top: -70px;
+}
+.bur h1{
+position: relative;
+top: 200px;
+width: 1400px;
+
+}
+.bur a{
+  position: relative; top: 300px;left: 500px;
+  padding: 30px 50px;
+  font-size: 40px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.connect{
+  text-align: center;
+  font-size: 70px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 400px 400px 1fr;
+  column-gap: 20px;
+  margin-bottom: 100px;
+}
+.con{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+
+}
+.con h1,.qu h1,.loc h1 ,.in p,.follow h1{
+  font-size: 30px;
+  line-height: 30px;
+ 
+}
+span{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.mail{
+  display: flex;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cl{
+  display: flex;
+  width: 250px;
+}
+.cl p{
+  font-size: 20px
+}
+.h_o{
+  width: 300px;
+  font-size: 27px;
+  margin: 70px;
+  margin-bottom: 20px;
+}
+li{
+  font-size: 30px;
+  margin:25px 5px;
+}
+li::marker{
+  color: rgb(239, 58, 58);
+}
+li{
+  color: red;
+}
+li:nth-child(3),.loc li:first-child{
+  color: black;
+}
+.loc{
+  width: 330px;
+}
+.qu{
+  margin-bottom: 65px;
+}
+.in input{
+  font-size: 30px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 0px;
+  margin-bottom: 60px;
+}
+.vi{
+  position: relative; left: -100px; top: 45px;
+}
+.insta img{
+margin-right: 20px;
+}
+.insta img:hover{
+  height: 45px;
+  cursor: pointer;
+}
+.last{
+display: flex;
+justify-content: center;
+margin: 0px 0px 100px 0px;
+}
+#about{
+  width: 100%;
+}
+.about img{
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 130px;
+}
+.about h1{
+  width:600px;
+  font-size: 50px;
+  position: absolute; top: 160px;left: 150px;
+  color: white;
+}
+.im5,.phone,.i1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 25px;
+  align-items: center;
+  margin-bottom: 100px;
+  column-gap: 10px;
+}
+.im5 img,.phone div,.phone+div,#loc {
+ margin-left: 100px;
+}
+.phone div{
+  display: grid;
+  grid-template-rows: 150px 200px;
+}
+.i1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#loc h1{
+  font-size: 35px;
+}
+.ben p{
+  font-size: 25px;
+  font-weight: bold;
+}
+#ben span{
+  font-size: 25px;
+  font-weight: 200;
+}
+#loc{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.copy{
+  border: 1px solid black;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-image:linear-gradient(90deg red,greem orange);
+}
+/* .burger{
+  background-color: black;
+} */
+
